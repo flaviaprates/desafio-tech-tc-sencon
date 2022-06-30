@@ -1,16 +1,47 @@
 .modal-background {
     min-height: 100vh;
     width: 100vw;
-    background-color: rgb(232, 232, 232, 0.3);
+    background-color: rgba(0, 0, 0, 0.4);
     font-size: 1.6rem;
+    padding-top: 10rem;
 
     position: fixed;
     left: 0;
     top: 0;
 
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 
     z-index: 1;
+}
+
+.modal {
+    width: 50%;
+    background-color: #fefefe;
+    padding: 30px 20px;
+    border: 1px solid #888888;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    position: relative;
+}
+
+.close-modal {
+    color: #aaaaaa;
+    font-size: 2.5rem;
+    font-weight: bold;
+
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.close-modal:hover {
+    color: #000;
+
 }

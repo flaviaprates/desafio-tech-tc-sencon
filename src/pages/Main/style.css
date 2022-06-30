@@ -28,8 +28,8 @@
 
     display: grid;
     grid-template-areas:
-        'topbar topbar topbar space space space';
-    grid-template-columns: 1.2fr 1.2fr 1fr 1.8fr 1fr 1fr;
+        'topbar topbar topbar topbar topbar topbar';
+    grid-template-columns: 15% 20% 15% 25% 15% 10%;
 }
 
 .table-title span {
@@ -40,4 +40,5 @@
 .table-content span {
     padding: 8px 16px;
     border: 1px solid rgb(204, 204, 204);
+    cursor: pointer;
 }
